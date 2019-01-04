@@ -217,6 +217,7 @@ td {
     width:700px;
     height:500px;
     background: #fff;
+    border-radius:5px;
 }
 /*弹出层关闭按钮*/
 .layer-close
