@@ -234,9 +234,19 @@ td {
     margin-top: 15px;
     margin-right: 20px;
 }
-.layer-close:hover
+.layer-close span{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+.layer-close span:hover
 {
     cursor: pointer;
+    opacity: 0.6;
 }
 
 /*登录*/
