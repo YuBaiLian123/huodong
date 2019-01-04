@@ -5,7 +5,7 @@ $(document).ready(function($){
      $(btnName).click(function(){
     // 获取登录窗体代码
       var loginHtml = $("#loginHtml").html();
-      showLayer(loginHtml,700,470,closeCallback);
+      showLayer(loginHtml,700,500,closeCallback);
   });
   // 弹出层关闭回调函数
   function closeCallback(){
